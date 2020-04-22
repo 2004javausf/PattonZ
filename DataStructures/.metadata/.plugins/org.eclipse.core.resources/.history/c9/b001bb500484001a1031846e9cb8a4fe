@@ -1,0 +1,23 @@
+package com.revature.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MyList {
+	
+	//List
+	//	A list is indexed
+	//	Allows duplicates
+	//	An ordered sequence
+	//	
+	
+	public static void main(String[] args) {
+		
+		List<String> myFirstList = new ArrayList<>();
+		myFirstList.add("We're doing great!!");
+		myFirstList.add("Here's another String.");
+		myFirstList.add("Another one for the road...");
+		System.out.println(myFirstList);
+		
+	}
+}

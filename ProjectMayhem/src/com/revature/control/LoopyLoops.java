@@ -70,6 +70,8 @@ public class LoopyLoops {
 			System.out.println(i);
 		}
 	}
+	
+	
 	/*While Loops
 	 * while(<condition>){<do something>}
 	 * 
@@ -91,6 +93,7 @@ public class LoopyLoops {
 	}
 	
 	public static void main(String[] args) {
+		
 		whatColour("green");
 		whatColour("anything");
 		

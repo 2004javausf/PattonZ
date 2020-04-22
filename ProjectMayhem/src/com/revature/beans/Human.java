@@ -1,4 +1,8 @@
 package com.revature.beans;
+
+import com.revature.classtypes.Animal;
+import com.revature.classtypes.Hunt;
+
 //Packages are "fancy" folders. 
 
 /*
@@ -9,7 +13,7 @@ package com.revature.beans;
  * Constants: ALL_CAPS, typically delimited by underscores
  */
 
-public class Human {
+public class Human extends Animal implements Hunt {
 	/*
 	 * Members of a Class- couple of forms
 	 * Instance Variables- property of a specific object (human's name)
@@ -82,5 +86,17 @@ public class Human {
 	@Override
 	public String toString() {
 		return "Human [name=" + name + ", age=" + age + ", weight=" + weight + ", homePlanet= " + homePlanet + "]";
+	}
+
+	@Override
+	public void findPrey() {
+		System.out.println("I use a spear to hunt");
+		
+	}
+
+	@Override
+	public void breathe() {
+		System.out.println("I breathe air using lungs");
+		
 	}
 }

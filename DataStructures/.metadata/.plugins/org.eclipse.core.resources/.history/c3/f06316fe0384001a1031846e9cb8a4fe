@@ -1,0 +1,14 @@
+package com.revature.collection;
+
+public class MyList {
+	
+	//List
+	//	A list is indexed
+	//	Allows duplicates
+	//	An ordered sequence
+	//
+	
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,36 @@
+package com.revature.collection;
+
+import java.util.ArrayDeque;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class MyQueue {
+
+	//	Ordered list of objects related to insertion order
+	
+	//	Follows the First-In-First-Out (FIFO) principle
+	
+	//Methods:
+	//		poll, remove, peek and element
+	
+	//Other principle is: First-In-Last-Out (FILO, LIFO)
+	//	Stack
+	
+	public static void main(String[] args) {
+		
+		Queue<String> myFirstQueue = new PriorityQueue<>();
+		Queue<Integer> myOtherQueue = new LinkedList<>();
+		Queue<String> myOtherOtherQueue = new ArrayDeque<>();
+		
+		myFirstQueue.add("Peter Pan");
+		myFirstQueue.add("Marmaduke");
+		myFirstQueue.add("Spawn");
+		
+		System.out.println(myFirstQueue);
+		
+		System.out.println(myFirstQueue.poll());
+		
+	}
+	
+}
