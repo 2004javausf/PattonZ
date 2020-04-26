@@ -1,5 +1,7 @@
 package com.revature.beans;
 
+import java.io.Serializable;
+
 import com.revature.classtypes.Animal;
 import com.revature.classtypes.Hunt;
 
@@ -13,7 +15,12 @@ import com.revature.classtypes.Hunt;
  * Constants: ALL_CAPS, typically delimited by underscores
  */
 
-public class Human extends Animal implements Hunt {
+public class Human extends Animal implements Hunt, Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7853030017232710673L;
+
 	/*
 	 * Members of a Class- couple of forms
 	 * Instance Variables- property of a specific object (human's name)
